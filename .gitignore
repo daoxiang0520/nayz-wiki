@@ -20,3 +20,6 @@ site/
 # 系统文件
 .DS_Store
 Thumbs.db
+
+# 排除图片（太大，推送会超时）
+docs/assets/images/*
