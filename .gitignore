@@ -1,0 +1,22 @@
+# 只同步 MkDocs 内容到 GitHub
+# 忽略除 docs/、mkdocs.yml 外的所有根目录内容
+/*
+!/docs/
+!/docs/**
+!/mkdocs.yml
+!/.gitignore
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.db
+*.log
+*.txt
+*.bak
+
+# MkDocs 构建输出
+site/
+
+# 系统文件
+.DS_Store
+Thumbs.db
